@@ -1,64 +1,4 @@
 /* Your card CSS file */
-/*.container {
-  width: 500px;
-  margin: 0 auto;
-}
-
-div {
-  display: block;
-}
-
-p {
-  margin: 0;
-}
-
-.card-category {
-  background-size: cover;
-  background-position: center;
-  height: 180px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  font-size: 24px;
-  font-weight: bold;
-  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
-  border-radius: 5px;
-  box-shadow: 0 0 15px rgba(0,0,0,0.2);
-  margin-bottom: 15px
-}
-
-.card-product {
-  overflow: hidden;
-  height: 120px;
-  background: white;
-  box-shadow: 0 0 15px rgba(0,0,0,0.2);
-  display: flex;
-  align-items: center;
-  margin-bottom: 15px;
-  border-radius: 3px;
-}
-
-.card-product img {
-  height: 100%;
-  width: 120px;
-  object-fit: cover;
-}
-
-.card-product .card-product-infos {
-  padding: 16px;
-}
-
-.card-product .card-product-infos h2 {
-  margin: 3px;
-}
-
-.card-product p {
-  font-size: 14px;
-  opacity: .7;
-  align-items: center;
-  margin: 0;
-}*/
 .cards {
   display: flex;
   justify-content: flex-end;
@@ -107,5 +47,56 @@ p {
   width: 40px;
 }
 
+.cards2 {
+  display: flex;
+  justify-content: space-between;
+}
 
+.card-category {
+  background-size: cover;
+  background-position: center;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  margin-bottom: 15px;
+  width: 250px;
+}
 
+.card-product {
+  overflow: hidden;
+  height: 120px;
+  background: white;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  border-radius: 3px;
+}
+
+.card-product img {
+  height: 100%;
+  width: 120px;
+  object-fit: cover;
+}
+
+.card-product .card-product-infos {
+  padding: 16px;
+}
+
+.card-product .card-product-infos h2 {
+  margin: 3px;
+}
+
+.card-product p {
+  font-size: 14px;
+  opacity: .7;
+  align-items: center;
+  margin: 0;
+}

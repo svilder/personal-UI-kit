@@ -47,14 +47,16 @@
   border: 1px #B6244F solid;
   border-radius: 3px;
   padding: 15px;
-  background-color: #F9B6BF;
-  color: #4F759B;
+/*  background-color: #F9B6BF;*/
+  /* color: #4F759B; */
+  color: white;
   transition: background 0.5s ease;
+  background: linear-gradient(#B6244F, #F9B6BF);
 }
 
 .btn-lobster:hover {
-  color: #A3C4BC;
-  background-color: #B6244F;
+  color: white;
+  background: linear-gradient(#F9B6BF, #B6244F);
 }
 
 .btn-neon {
