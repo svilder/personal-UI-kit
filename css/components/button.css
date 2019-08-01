@@ -1,6 +1,6 @@
 /* Your button CSS file */
 
-/*.btn-medium {
+.btn-medium {
   color: #02566C;
   border: 1px solid #02566C;
   padding: 14px 40px;
@@ -26,7 +26,7 @@
 .btn-treehouse:hover {
   opacity: 1;
   background: #02566C;
-}*/
+}
 
 .btn-yellow {
   color: #0F3C42;
@@ -41,4 +41,36 @@
 .btn-yellow:hover {
   color: #FFE837;
   background: #0F3C42;
+}
+
+.btn-lobster {
+  border: 1px #B6244F solid;
+  border-radius: 3px;
+  padding: 15px;
+  background-color: #F9B6BF;
+  color: #4F759B;
+  transition: background 0.5s ease;
+}
+
+.btn-lobster:hover {
+  color: #A3C4BC;
+  background-color: #B6244F;
+}
+
+.btn-neon {
+  padding: 15px;
+  background: black;
+  color: #F0F465;
+  border-radius: 5px;
+  border: 2px #F0F465 solid;
+  box-shadow: 0 0 17px red;
+  transition: background 0.5s ease;
+}
+
+.btn-neon:hover {
+  box-shadow: 0 0 27px #0F3C42;
+  border: 2px red solid;
+  background: #F0F465;
+  color: #0F3C42;
+  font-weight: bold;
 }

@@ -3,8 +3,8 @@
 
 /* Custom designs */
 @import url(components/banner.css);
-@import url(components/button-wagon.css);
-@import url(components/card-wagon.css);
+@import url(components/button.css);
+@import url(components/cards.css);
 @import url(components/container.css);
 @import url(components/footer.css);
 
@@ -24,4 +24,9 @@ a {
 
 .text-center {
   text-align: center;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
 }

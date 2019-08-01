@@ -59,6 +59,10 @@ p {
   align-items: center;
   margin: 0;
 }*/
+.cards {
+  display: flex;
+  justify-content: flex-end;
+}
 
 .card-trip {
   overflow: hidden;
