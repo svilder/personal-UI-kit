@@ -16,6 +16,7 @@
 
 .card-trip > img {
   width: 100%;
+  height: 180px;
   object-fit: cover;
 }
 
@@ -67,6 +68,12 @@
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
   margin-bottom: 15px;
   width: 250px;
+}
+
+.cards3 {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
 }
 
 .card-product {
