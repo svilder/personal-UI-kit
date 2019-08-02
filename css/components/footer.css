@@ -1,5 +1,6 @@
 .footer {
   padding: 100px 0;
+  background: linear-gradient(rgba(255,232,55,0), rgba(255,232,55,1));
   background-size: cover;
   background-position: center;
   display: flex;

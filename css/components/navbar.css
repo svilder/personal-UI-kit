@@ -1,6 +1,6 @@
 .navbar-lewagon {
   justify-content: space-between;
-  background: white;
+  background: linear-gradient(rgba(255,232,55,1), rgba(255,232,55,0));
 }
 
 .navbar-lewagon .navbar-collapse {
