@@ -1,4 +1,18 @@
 /* Your button CSS file */
+.btn-yellow {
+  color: #0F3C42;
+  padding: 15px 25px;
+  border-radius: 4px;
+  font-weight: bold;
+  background: #FFE837;
+  transition: background 0.7s ease;
+  justify-content: center;
+}
+
+.btn-yellow:hover {
+  color: #FFE837;
+  background: #0F3C42;
+}
 
 .btn-medium {
   color: #02566C;
@@ -11,6 +25,7 @@
 
 .btn-medium:hover {
   opacity: 1;
+  color: #0F3C42;
 }
 
 .btn-treehouse {
@@ -26,22 +41,9 @@
 .btn-treehouse:hover {
   opacity: 1;
   background: #02566C;
+  color: #F0F465;
 }
 
-.btn-yellow {
-  color: #0F3C42;
-  padding: 15px 25px;
-  border-radius: 4px;
-  font-weight: bold;
-  background: #FFE837;
-  transition: background 0.7s ease;
-  justify-content: center;
-}
-
-.btn-yellow:hover {
-  color: #FFE837;
-  background: #0F3C42;
-}
 
 .btn-lobster {
   border: 1px #B6244F solid;

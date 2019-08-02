@@ -4,30 +4,96 @@
   <meta charset="UTF-8">
   <title>My UI kit</title>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
-
-
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="https://res.cloudinary.com/dfbhkicfg/image/upload/v1564740565/dragon_model_qdoggl.png" type="image/png">
 </head>
+
 <body>
+  <!-- dans navbar, y a bar -->
+  <div class="navbar navbar-expand-sm navbar-light navbar-lewagon">
+    <!-- pour cliquer sur le logo à gauche -->
+    <a class="navbar-brand" href="#">
+      <img src="https://res.cloudinary.com/dfbhkicfg/image/upload/v1564740565/dragon_model_qdoggl.png" />
+    </a>
+    <!-- <%= link_to "#", class: "navbar-brand" do %>
+    <%= image_tag "https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/logo.png" %>
+    <% end %> -->
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home</a>
+          <!-- <%= link_to "Home", "#", class: "nav-link" %> -->
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Messages</a>
+          <!-- <%= link_to "Messages", "#", class: "nav-link" %> -->
+        </li>
+        <li class="nav-item dropdown">
+          <img class="avatar dropdown-toggle" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" src="https://res.cloudinary.com/dfbhkicfg/image/upload/v1564740192/dragon_3_all_puazbf.png" />
+          <!-- <%= image_tag "https://kitt.lewagon.com/placeholder/users/ssaunier", class: "avatar dropdown-toggle", id: "navbarDropdown", data: { toggle: "dropdown" }, 'aria-haspopup': true, 'aria-expanded': false %> -->
+          <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <!-- <%= link_to "Action", "#", class: "dropdown-item" %>
+            <%= link_to "Another action", "#", class: "dropdown-item" %> -->
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+
   <div class="container">
-  <!-- code a Hero / Banner section -->
+
+  <!-- des boutons partout -->
+    <br>
+    <br>
     <h1 class="text-center">Boutontons</h1>
+    <br>
     <div class="header">
       <a class="btn-yellow" href="#">Go now!</a>
+      <!-- %= link_to "Go now!", "#", class: "btn-yellow" %> -->
       <a class="btn-medium" href="#">Bim bam boum</a>
       <a class="btn-treehouse" href="#">Ratatatata</a>
       <a class="btn-lobster" href="#">tchik, tchiky boom</a>
       <a class="btn-neon" href="#">Dzzzzziiiion</a>
     </div>
 
-  <!-- code a "How it works" section -->
+    <!-- des avatars -->
+    <br>
+    <br>
+    <hr>
+    <hr>
+    <h2 class="text-center">Avatars</h2>
+    <br>
+    <div class="avatars">
+      <img class="avatar" alt="avatar" src="https://kitt.lewagon.com/placeholder/users/cveneziani" />
+      <img class="avatar-large" alt="avatar-large" src="https://kitt.lewagon.com/placeholder/users/arthur-littm" />
+      <img class="avatar-bordered" alt="avatar-bordered" src="https://kitt.lewagon.com/placeholder/users/sarahlafer" />
+      <img class="avatar-square" alt="avatar-square" src="https://kitt.lewagon.com/placeholder/users/krokrob" />
+
+      <!-- <%= image_tag "https://kitt.lewagon.com/placeholder/users/cveneziani", class: "avatar", alt: "avatar" %>
+      <%= image_tag "https://kitt.lewagon.com/placeholder/users/arthur-littm", class: "avatar-large", alt: "avatar-large" %>
+      <%= image_tag "https://kitt.lewagon.com/placeholder/users/sarahlafer", class: "avatar-bordered", alt: "avatar-bordered" %>
+      <%= image_tag "https://kitt.lewagon.com/placeholder/users/krokrob", class: "avatar-square", alt: "avatar-square" %>
+       -->
+    </div>
+
+
+  <!-- des cards -->
     <br>
     <br>
     <hr>
     <hr>
     <h2 class="text-center">Cards</h2>
+    <br>
     <div class="cards">
-
       <div class="card-trip">
         <img src="https://www.maxpixel.net/static/photo/2x/Canada-Provinces-Map-Alberta-Territories-2088307.png" alt="">
         <h4>Go to Canada!</h4>
@@ -50,8 +116,9 @@
     <br>
     <hr>
     <hr>
-
+  <!-- des cards en plus -->
     <h2 class="text-center">Others Cards</h2>
+    <br>
     <div class="cards2">
 
       <div class="card-category" style="background-image: url(https://picsum.photos/200), linear-gradient(rgba(255,232,55,0), rgba(255,232,55,1)">
@@ -71,8 +138,9 @@
     <br>
     <hr>
     <hr>
-
+  <!-- encore plus de cards -->
     <h2 class="text-center">Differents Cards</h2>
+    <br>
     <div class="cards3">
       <div class="card-product">
         <img src="https://picsum.photos/100">
@@ -105,11 +173,12 @@
           <p>Product description with <strong>relevant info</strong> only.</p>
         </div>
       </div>
-
     </div>
 
-  </div>
-  <!-- code a footer -->
+
+
+  </div>   <!-- fin de div du container -->
+  <!-- un footer -->
   <div class="footer" style="background-image: linear-gradient(rgba(255,232,55,0), rgba(255,232,55,1)">
     <div class="links">
       <a href="#"><i class="fab fa-fw fa-facebook-f"></i></a>
