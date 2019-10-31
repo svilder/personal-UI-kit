@@ -6,7 +6,7 @@
   border-radius: 4px;
   font-weight: bold;
   background: #FFE837;
-  transition: background 0.7s ease;
+  transition: all 0.7s ease;
   justify-content: center;
 }
 
@@ -35,7 +35,7 @@
   border-radius: 4px;
   font-weight: bold;
   background: #0F3C42;
-  transition: background 0.3s ease;
+  transition: all 0.3s ease;
 
 }
 
@@ -53,7 +53,7 @@
 /*  background-color: #F9B6BF;*/
   /* color: #4F759B; */
   color: white;
-  transition: background 0.5s ease;
+  transition: all 0.5s ease;
   background: linear-gradient(#B6244F, #F9B6BF);
 }
 
